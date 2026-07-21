@@ -3,82 +3,95 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Armando El Taller</title>
+<title>Armando El Taller | Muebles y Carpintería</title>
+<meta name="description" content="Fabricación de muebles, carpintería a medida, casas modulares y proyectos en madera en Lampa y Región Metropolitana.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
 body{
 margin:0;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
 background:#f5f5f5;
-color:#333;
+color:#222;
 }
 
 header{
-background:#5a3d28;
+background:#1b1b1b;
 color:white;
-padding:40px;
-text-align:center;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
 }
 
-nav{
-background:#3d2818;
-padding:15px;
-text-align:center;
+.logo{
+font-size:28px;
+font-weight:700;
 }
 
 nav a{
 color:white;
-margin:15px;
 text-decoration:none;
-font-weight:bold;
+margin-left:25px;
 }
 
 .hero{
-padding:80px 20px;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+height:85vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
-background:white;
+color:white;
+padding:20px;
 }
 
 .hero h1{
-font-size:42px;
+font-size:52px;
+max-width:900px;
 }
 
-.boton{
-background:#25D366;
-color:white;
-padding:15px 30px;
-text-decoration:none;
+.hero p{
+font-size:22px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+background:#c48b3a;
+padding:15px 35px;
 border-radius:8px;
-font-size:20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+margin-top:25px;
 }
 
 section{
-max-width:1100px;
+max-width:1200px;
 margin:auto;
-padding:50px 20px;
+padding:80px 20px;
 }
 
-.tarjetas{
-display:flex;
-flex-wrap:wrap;
-gap:20px;
-justify-content:center;
-}
-
-.tarjeta{
-background:white;
-padding:25px;
-border-radius:10px;
-width:280px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
+h2{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
 }
 
 footer{
-background:#222;
+background:#111;
 color:white;
 text-align:center;
-padding:30px;
-margin-top:40px;
+padding:40px;
 }
 </style>
 
@@ -88,11 +101,7 @@ margin-top:40px;
 
 <header>
 
-<h1>ARMANDO EL TALLER</h1>
-
-<p>Carpintería • Muebles • Casas Modulares • Proyectos en Madera</p>
-
-</header>
+<div class="logo">ARMANDO EL TALLER</div>
 
 <nav>
 
@@ -106,40 +115,15 @@ margin-top:40px;
 
 </nav>
 
-<div class="hero">
+</header>
 
-<h1>Fabricamos calidad en madera.</h1>
+<section class="hero">
 
-<p>Diseños únicos para hogares y empresas.</p>
+<h1>Fabricamos muebles únicos y proyectos en madera de alta calidad.</h1>
 
-<br>
+<p>Carpintería personalizada • Casas modulares • Tablas de asado • Muebles para hogar y empresas.</p>
 
-<a class="boton" href="#">Contáctanos por WhatsApp</a>
-
-</div>
-
-<section>
-
-<h2>Nuestros Servicios</h2>
-
-<div class="tarjetas">
-
-<div class="tarjeta">
-<h3>Muebles a medida</h3>
-<p>Diseñamos muebles únicos y personalizados.</p>
-</div>
-
-<div class="tarjeta">
-<h3>Casas Modulares</h3>
-<p>Construcción rápida con excelente calidad.</p>
-</div>
-
-<div class="tarjeta">
-<h3>Trabajos Especiales</h3>
-<p>Todo tipo de proyectos en madera.</p>
-</div>
-
-</div>
+<a class="btn" href="https://wa.me/56941440479">Solicitar Cotización</a>
 
 </section>
 
@@ -150,5 +134,4 @@ margin-top:40px;
 </footer>
 
 </body>
-
 </html>
